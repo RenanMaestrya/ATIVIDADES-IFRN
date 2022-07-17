@@ -1,0 +1,28 @@
+body{
+    margin: auto;
+    padding: 0px;
+    width: 1200px;
+    font-family: 'Source Sans Pro' sans-serif, 3px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 32px;
+    margin-top: 80px;
+}
+h2{
+    margin: 32px 0px 16px 0px;
+}
+p,ol{
+    font-size: 18px 27px;
+    margin-top: 18px 0px 18px 0px;
+}ol{
+    margin-left: 20px;
+}
+a{
+    color:#5551FF;
+    text-decoration: none;
+}
+div{
+    text-align: center;
+    margin;
+}
