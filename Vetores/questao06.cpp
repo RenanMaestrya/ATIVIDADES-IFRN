@@ -15,16 +15,15 @@ int main()
         }
          
          for (int l = 0; l < 20; l++){
-            if (l%2==1)
+            if (l%2==0)
             {
-                C[l]=A[i];
-                i++;
-            }
-            else{
+                C[l] = A[i];
+                 i++;
+            }else{
                 C[l] = B[k];
                 k++;
             }
-            cout << C[k] << endl;
+            cout << C[l] << endl;
         }
         
     return 0;   
