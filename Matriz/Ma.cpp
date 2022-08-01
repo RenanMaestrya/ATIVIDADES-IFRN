@@ -33,7 +33,7 @@ int main()
             }
         }
         for ( i = 0; i < 5; i++)
-        {
+        {   cout << endl;
             for( j = 0; j < 3; j++){
                 cout << C[i][j] << " ";
             }
