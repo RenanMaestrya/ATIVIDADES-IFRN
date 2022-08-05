@@ -7,25 +7,36 @@ using namespace std;
 
 int main()
 {
-    int A[8][6];
-    int B[8];
-        
-        cout << "\n MAtriz A:";
-        for (int i = 0; i < 8; i++)
-        {   cout << endl;
-            for (int j = 0; j < 6; j++)
-            {   
-                A[i][j] = i;
-                cout << A[i][j] << " ";
-            }
-        }
-        for (int i = 0; i < 8; i++)
+    int A[8][6], B[8], soma=0;
+    for (int i=0; i<8; i++)
+    {
+        for (int j=0; j<6; j++)
         {
-            {
-                B[i] = A[i];
-            }
+            A[i][j]=rand()%100;
+            cout<<A[i][j]<<"  ";
+        }
+        cout<<endl;
+    }
+
+    cout<<endl;
+
+    for (int i=0; i<8; i++)
+    {
+        soma=0;
+
+        for (int j=0; j<6; j++)
+        {
+            soma=soma+A[i][j];
+             B[i]=soma;
+            
         }
        
-        
-        
+    }
+
+
+    for (int i=0; i<8; i++)
+    {  
+    cout<<"Soma da linha "<<i<<" = "<<B[i]<<endl;
+    }
+    return 0;
 }

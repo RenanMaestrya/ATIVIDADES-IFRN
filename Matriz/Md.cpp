@@ -1,3 +1,9 @@
+/*Elaborar um programa que leia uma matriz A de uma dimensão com dez elementos inteiros.
+Construir uma matriz C de duas dimensões com três colunas, sendo a primeira coluna da
+matriz C formada pelos elementos da matriz A somados com 5, a segunda coluna formada
+pelo valor do cálculo da fatorial de cada elemento correspondente da matriz A e a terceira e
+última coluna pelos quadrados dos elementos correspondentes da matriz A. Apresentar a
+matriz C.*/
 #include <iostream>
 #include <cmath>
 

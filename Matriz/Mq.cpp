@@ -36,5 +36,5 @@ int main()
              C[j] = soma;
              soma = 0;
         }
-        
+    return 0;   
 }

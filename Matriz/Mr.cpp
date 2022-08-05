@@ -1,3 +1,9 @@
+/*Elaborar um programa que leia quatro matrizes A, B, C e D de uma dimensão com quatro
+elementos. Construir uma matriz E de duas dimensões do tipo 4 × 4, sendo a primeira linha
+formada pelo dobro dos valores dos elementos da matriz A, a segunda linha formada pelo
+triplo dos valores dos elementos da matriz B, a terceira linha formada pelo quádruplo dos
+valores dos elementos da matriz C e a quarta linha formada pelo fatorial dos valores dos
+elementos da matriz D. Apresentar a matriz E.*/
 #include <iostream>
 #include <cmath>
 using namespace std;

@@ -1,3 +1,6 @@
+/*Elaborar um programa que leia 20 elementos para uma matriz qualquer, considerando que
+essa matriz tenha o tamanho de quatro linhas por cinco colunas. Em, seguida, apresentar a
+matriz.*/
 #include <iostream>
 
 using namespace std;

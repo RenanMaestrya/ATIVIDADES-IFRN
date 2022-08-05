@@ -30,4 +30,5 @@ int main()
             
         }
         cout << "\n Exitem " << pares << " na Matriz" << endl;
+    return 0;
 }

@@ -1,3 +1,7 @@
+/*Elaborar um programa que leia uma matriz A de duas dimensões com cinco linhas e quatro
+colunas. Construir uma matriz B de mesma dimensão, em que cada elemento seja o fatorial
+de cada elemento correspondente armazenado na matriz A. Apresentar ao final as matrizes
+A e B.*/
 #include <iostream>
 
 using namespace std;
